@@ -1,14 +1,9 @@
 package com.perch.yellow.saltmachine;
 
-import android.app.Fragment;
 import android.app.FragmentManager;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.Button;
 
 public class Menu extends AppCompatActivity implements FragmentManager.OnBackStackChangedListener {
 
@@ -16,6 +11,7 @@ public class Menu extends AppCompatActivity implements FragmentManager.OnBackSta
      * A handler object, used for deferring UI operations.
      */
     private Handler mHandler = new Handler();
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -26,7 +22,7 @@ public class Menu extends AppCompatActivity implements FragmentManager.OnBackSta
         if (savedInstanceState == null) {
             getFragmentManager()
                     .beginTransaction()
-                    .add(R.id.transitionContainer, new menuFragment())
+                    .add(R.id.transitionContainer, new MenuFragment())
                     .commit();
         } else {
             mShowingBack = (getFragmentManager().getBackStackEntryCount() > 0);
@@ -80,7 +76,7 @@ public class Menu extends AppCompatActivity implements FragmentManager.OnBackSta
                 // Replace any fragments currently in the container view with a
                 // fragment representing the next page (indicated by the
                 // just-incremented currentPage variable).
-                .replace(R.id.transitionContainer, new saltingFragment())
+                .replace(R.id.transitionContainer, new addPhraseFragment())
 
                 // Add this transaction to the back stack, allowing users to press
                 // Back to get to the front of the card.
@@ -122,45 +118,5 @@ public class Menu extends AppCompatActivity implements FragmentManager.OnBackSta
 //        return super.onOptionsItemSelected(item);
 //    }
 
-
-
-
-    /**
-     * A fragment representing the front of the card.
-     */
-    public static class menuFragment extends Fragment implements View.OnClickListener{
-        public menuFragment(){
-
-        }
-
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                                 Bundle savedInstanceState) {
-            View view = inflater.inflate(R.layout.activity_menu, container, false);
-            Button button = (Button)view.findViewById(R.id.addPhraseButton);
-            button.setOnClickListener(this);
-            return view;
-        }
-
-        @Override
-        public void onClick(View view) {
-            ((Menu)getActivity()).flipCard();
-        }
-    }
-
-    /**
-     * A fragment representing the back of the card.
-     */
-    public static class saltingFragment extends Fragment {
-        public saltingFragment(){
-
-        }
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                                 Bundle savedInstanceState) {
-
-            return inflater.inflate(R.layout.activity_salting, container, false);
-        }
-    }
 
 }

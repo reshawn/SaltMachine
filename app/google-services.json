@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "38398311345",
+    "firebase_url": "https://salt-machine.firebaseio.com",
+    "project_id": "salt-machine",
+    "storage_bucket": "salt-machine.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38398311345:android:414c73cd97bd8649",
+        "android_client_info": {
+          "package_name": "com.perch.yellow.saltmachine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38398311345-4fkfdbp4c4hivefvq1v8g3do24boviut.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.perch.yellow.saltmachine",
+            "certificate_hash": "ba9c842cb6143d8484918b50bb1bbb9a00bf62ce"
+          }
+        },
+        {
+          "client_id": "38398311345-lbj10l81o1t4ullh73shiredeehvfekh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9eiwRkKfVtMuw2pCAw9bUHX_xjDw_oRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38398311345-lbj10l81o1t4ullh73shiredeehvfekh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,4 +1,20 @@
 <resources>
     <string name="app_name">Salt Machine</string>
     <string name="menu">Grand Menu</string>
+
+    <string name="addPhraseButtonLabel1">Give To The Word Of The Salt</string>
+    <string name="addPhraseButtonLabel2">Donate Salt</string>
+    <string name="addPhraseButtonLabel3">Share Your Spices</string>
+
+    <string name="saltButtonLabel1">Salinize My Soil</string>
+    <string name="saltButtonLabel2">Salt Me Daddy</string>
+    <string name="saltButtonLabel3">Sprinkle Satan\'s Spices</string>
+
+    <string name="unsaltButtonLabel1">Cleanse My Soul</string>
+    <string name="unsaltButtonLabel2">Desalinate Me</string>
+    <string name="unsaltButtonLabel3">Repair My Feelings</string>
+
+    <string name="surpriseButtonLabel1">Surprise Me</string>
+    <string name="surpriseButtonLabel2">Just Do Anything To Me</string>
+    <string name="surpriseButtonLabel3">Idk Just Pick One</string>
 </resources>
