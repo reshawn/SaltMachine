@@ -1,4 +1,4 @@
-<resources >
+<resources>
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -8,14 +8,20 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:windowBackground">@color/lightBlue</item>
     </style>
+
     <style name="noTitle" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowBackground">@color/lightBlue</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
     </style>
+
     <style name="salting" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="android:windowBackground">@color/red</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
     </style>
+
+    <style name="noTitle.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="noTitle.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 
 </resources>

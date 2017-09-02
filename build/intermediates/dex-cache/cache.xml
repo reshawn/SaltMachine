@@ -3,6 +3,96 @@
 
     <item
         is-multidex="true"
+        jar="C:\Users\resha\.android\build-cache\ea28242afee314fd956f159b97daca5cee98a6b4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\resha\AndroidStudioProjects\SaltMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_03085db717ef0be8fdec464292b1804a14917439\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\resha\.android\build-cache\b14243440f521f067e555bc87461c63208bcf676\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="C:\Users\resha\AndroidStudioProjects\SaltMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c5032c3f06c958ba45df063168477725d0a98a0b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\resha\.android\build-cache\3b4fd22b39fc4706fbbd86f8e01bbaaa71663627\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="C:\Users\resha\AndroidStudioProjects\SaltMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8fe7a477735d7b2a2e1d476399839513cc541f57\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\resha\.android\build-cache\97084904b4e4d5e4cd7112e6866b0a962e09a264\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\resha\AndroidStudioProjects\SaltMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9ef3a8f70d95d2a3688ae0bc10232d7121fdeac6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\resha\.android\build-cache\415888a11040675b20f3747b4a17a3b420d25953\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\Users\resha\AndroidStudioProjects\SaltMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ceb3ef74c19bb9cb56595ca7757406e29f7a0b81\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\resha\.android\build-cache\400cd2bc24082fabda2cb2a687a7e28072f2b551\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\resha\AndroidStudioProjects\SaltMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_80ca7cd536f5eae3ac1a2f5da12c26a79f323a63\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\resha\.android\build-cache\949fb440e1c4ddec30a7a3fa9fbe75a37fc965bf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="C:\Users\resha\AndroidStudioProjects\SaltMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b403576d4f3e1ed0a0dab01332a5a27555cd09e9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\resha\.android\build-cache\9e549413997f51faf9b7ba73533f26ecb295a2e1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\resha\AndroidStudioProjects\SaltMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8b43f0837d320cced435f5213092f6555cb2f0c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\resha\.android\build-cache\941cdbb38e2a3b9569fbabe31162782befa58017\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\resha\AndroidStudioProjects\SaltMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d7321fa0c2e7712f3b4f1ed5f2c679545fea4b30\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\resha\.android\build-cache\662bf91c508ae6e1f61ec43f5bf71158b9b4fcb2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="C:\Users\resha\AndroidStudioProjects\SaltMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_96d24256f956e8cbcfe9712cf999ae8d9c010f4d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\resha\AndroidStudioProjects\SaltMachine\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -12,11 +102,20 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\resha\.android\build-cache\19a30cf22c5fcc1f31c244be283bd5816800dbd1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="C:\Users\resha\AndroidStudioProjects\SaltMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_deaa169fb81a8bfcba79bd3aab953f8132093add\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\resha\AndroidStudioProjects\SaltMachine\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.0"
-        sha1="e734ccb5731ffa7a6f7444142ae6c9edf306e754">
+        sha1="7bd00dc0669520c479dd5c874126e08f6c203d40">
         <dex dex="C:\Users\resha\AndroidStudioProjects\SaltMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_269714e720e4d70d7f0e863ea864a1d29a571ea1\classes.dex" />
     </item>
 

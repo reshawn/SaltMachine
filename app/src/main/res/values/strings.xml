@@ -17,4 +17,10 @@
     <string name="surpriseButtonLabel1">Surprise Me</string>
     <string name="surpriseButtonLabel2">Just Do Anything To Me</string>
     <string name="surpriseButtonLabel3">Idk Just Pick One</string>
+
+    <string name="addSaltButtonLabel">Donate Salt</string>
+    <string name="or"> OR </string>
+    <string name="addSugarButtonLabel">Donate Sugar</string>
+    <string name="submitLabel">Send With Love</string>
+
 </resources>

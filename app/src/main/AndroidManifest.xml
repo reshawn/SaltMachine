@@ -17,28 +17,39 @@
             </intent-filter>
         </activity>
         <activity android:name=".Menu" />
+        <activity
+            android:name=".saltActivity"
+            android:label="Menu"
+            android:parentActivityName=".Menu"
+            android:theme="@style/AppTheme">
 
-        <activity android:name=".saltActivity" android:label="Menu"
-            android:parentActivityName=".Menu"
-            android:theme="@style/AppTheme" >
-        <!-- Parent activity meta-data to support 4.0 and lower -->
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".Menu"/> </activity>
-        <activity android:name=".unsaltActivity" android:label="Menu"
-            android:parentActivityName=".Menu"
-            android:theme="@style/AppTheme" >
-        <!-- Parent activity meta-data to support 4.0 and lower -->
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".Menu"/> </activity>
-        <activity android:name=".surpriseActivity" android:label="Menu"
-            android:parentActivityName=".Menu"
-            android:theme="@style/AppTheme" >
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Menu"/>  </activity>
+                android:value=".Menu" />
+        </activity>
+        <activity
+            android:name=".unsaltActivity"
+            android:label="Menu"
+            android:parentActivityName=".Menu"
+            android:theme="@style/AppTheme">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Menu" />
+        </activity>
+        <activity
+            android:name=".surpriseActivity"
+            android:label="Menu"
+            android:parentActivityName=".Menu"
+            android:theme="@style/AppTheme">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Menu" />
+        </activity>
     </application>
 
 </manifest>
