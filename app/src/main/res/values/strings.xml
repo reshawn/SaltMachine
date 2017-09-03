@@ -1,6 +1,11 @@
 <resources>
-    <string name="app_name">Salt Machine</string>
+    //Activity labels
+    <string name="app_name">Salt or Sugar?</string>
     <string name="menu">Grand Menu</string>
+
+
+
+    //Button label pools
 
     <string name="addPhraseButtonLabel1">Give To The Word Of The Salt</string>
     <string name="addPhraseButtonLabel2">Donate Salt</string>
@@ -18,9 +23,15 @@
     <string name="surpriseButtonLabel2">Just Do Anything To Me</string>
     <string name="surpriseButtonLabel3">Idk Just Pick One</string>
 
+
+
+    //Add phrase fragment's button labels
     <string name="addSaltButtonLabel">Donate Salt</string>
     <string name="or"> OR </string>
     <string name="addSugarButtonLabel">Donate Sugar</string>
     <string name="submitLabel">Send With Love</string>
+
+    //Load phrase activities error message
+    <string name="errorMsg">Woops. Seasoning not found.</string>
 
 </resources>

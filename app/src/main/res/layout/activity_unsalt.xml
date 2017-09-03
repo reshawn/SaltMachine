@@ -7,6 +7,22 @@
     android:background="@drawable/gradient_greywhite"
     tools:context="com.perch.yellow.saltmachine.unsaltActivity">
 
+    <TextView
+        android:id="@+id/resultText2"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Widget.PopupMenu.Large"
+        app:layout_constraintBottom_toTopOf="@+id/refreshButton"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.322" />
+
     <Button
         android:id="@+id/refreshButton"
         android:layout_width="50dp"

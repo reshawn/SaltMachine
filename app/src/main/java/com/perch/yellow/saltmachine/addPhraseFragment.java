@@ -21,7 +21,7 @@ public class addPhraseFragment extends Fragment   {
     public addPhraseFragment() {
 
     }
-    int count;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -41,10 +41,11 @@ public class addPhraseFragment extends Fragment   {
 
 
                     // Pulls the counter from db, increments it, uses counter as id for new phrase, updates counter
-                    ValueEventListener postListener = new ValueEventListener() {
+                    ValueEventListener saltListener = new ValueEventListener() {
                         @Override
                         public void onDataChange(DataSnapshot dataSnapshot) {
 
+                            int count;
                             count = Integer.parseInt(dataSnapshot.getValue().toString());
                             count++;
                             String newID = Integer.toString(count);
@@ -62,7 +63,7 @@ public class addPhraseFragment extends Fragment   {
                         }
                     };
                     DatabaseReference countRef = db.getReference("salt_counter");
-                    countRef.addListenerForSingleValueEvent(postListener);
+                    countRef.addListenerForSingleValueEvent(saltListener);
 
                 }
                 else {
@@ -70,10 +71,11 @@ public class addPhraseFragment extends Fragment   {
 
 
                     // Pulls the counter from db, increments it, uses counter as id for new phrase, updates counter
-                    ValueEventListener postListener = new ValueEventListener() {
+                    ValueEventListener sugarListener = new ValueEventListener() {
                         @Override
                         public void onDataChange(DataSnapshot dataSnapshot) {
 
+                            int count;
                             count = Integer.parseInt(dataSnapshot.getValue().toString());
                             count++;
                             String newID = Integer.toString(count);
@@ -91,7 +93,7 @@ public class addPhraseFragment extends Fragment   {
                         }
                     };
                     DatabaseReference countRef = db.getReference("sugar_counter");
-                    countRef.addListenerForSingleValueEvent(postListener);
+                    countRef.addListenerForSingleValueEvent(sugarListener);
 
                 }
 
